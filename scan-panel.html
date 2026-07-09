@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Pemindai Kehadiran — Panitia</title>
+<meta name="description" content="Halaman khusus panitia untuk memindai QR tiket dan merekap kehadiran tamu." />
+<meta name="robots" content="noindex, nofollow" />
+
+<!-- Fonts (sama dengan undangan utama, tema "Biru Pantai") -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="scan-panel.css" />
+</head>
+<body>
+
+<header class="scan-topbar">
+  <div class="scan-topbar-inner">
+    <div class="scan-brand">
+      <span class="scan-eyebrow">Panitia</span>
+      <strong id="scan-school-name">Sekolah</strong>
+    </div>
+    <a class="scan-back-link" href="index.html">← Kembali ke Undangan</a>
+  </div>
+</header>
+
+<main class="scan-main">
+
+  <!-- ---------- HERO ---------- -->
+  <section class="scan-hero">
+    <span class="eyebrow">Check-in Gerbang Pantai</span>
+    <h1>Pemindai Kehadiran</h1>
+    <p id="scan-event-info">Gathering &amp; Reuni Sekolah</p>
+    <p id="sync-badge" class="sync-badge">Memeriksa koneksi…</p>
+  </section>
+
+  <!-- ---------- SCANNER ---------- -->
+  <section class="scan-card">
+    <h2>Pindai QR Tiket</h2>
+    <p class="scan-sub">Arahkan kamera ke QR code di tiket tamu. Scanner fisik 2D juga bisa dipakai — cukup klik kolom di bawah lalu tembakkan ke QR-nya.</p>
+
+    <div id="qr-reader"></div>
+    <p id="scan-status" class="scan-status">Menyiapkan kamera…</p>
+
+    <div class="manual-entry">
+      <input type="text" id="manual-code-input" placeholder="Kolom untuk scanner fisik / ketik manual…" autocomplete="off" />
+      <button id="btn-manual-add" type="button">Catat</button>
+    </div>
+  </section>
+
+  <!-- ---------- REKAP TAMU ---------- -->
+  <section class="scan-card">
+    <div class="recap-header">
+      <div>
+        <h2>Rekap Tamu</h2>
+        <p class="scan-sub">Daftar tamu yang sudah tercatat hadir dari hasil pindai.</p>
+      </div>
+      <div class="recap-count">
+        <strong id="attendance-count">0</strong>
+        <span>Tamu Hadir</span>
+      </div>
+    </div>
+
+    <div class="recap-actions">
+      <button id="btn-export-csv" type="button">⬇ Unduh CSV</button>
+      <button id="btn-reset-log" type="button" class="danger">Reset Data</button>
+    </div>
+
+    <div class="recap-table-wrap">
+      <table class="recap-table">
+        <thead>
+          <tr>
+            <th>Nama Tamu</th>
+            <th>Kode Tiket</th>
+            <th>Waktu Check-in</th>
+          </tr>
+        </thead>
+        <tbody id="attendance-table-body">
+          <tr class="recap-empty-row">
+            <td colspan="3">Belum ada tamu tercatat.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+</main>
+
+<footer class="scan-footer">
+  <p>Halaman ini khusus panitia. Data tersimpan lokal di perangkat ini<span id="scan-sync-note"></span>.</p>
+</footer>
+
+<!-- Pemindai QR via kamera -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5-qrcode/2.3.8/html5-qrcode.min.js"></script>
+
+<script src="config.js"></script>
+<script src="scan-panel.js"></script>
+</body>
+</html>
