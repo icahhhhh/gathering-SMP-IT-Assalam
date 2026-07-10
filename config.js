@@ -30,7 +30,7 @@ const CONFIG = {
   // ---- Kontak panitia (dipakai tombol konfirmasi kehadiran) ----
   committee: {
     name: "Panitia Gathering",
-    whatsapp: "6281234567890", // format internasional tanpa tanda +
+    whatsapp: "6283141209479", // format internasional tanpa tanda +
     whatsappMessage: "Halo, saya konfirmasi kehadiran di acara SATU HATI: Silaturahmi, Taat, Harmoni Bersama Keluarga SMPIT Assalam, 18 Juli 2026."
   },
 
