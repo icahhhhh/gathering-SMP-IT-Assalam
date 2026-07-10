@@ -77,9 +77,9 @@ const CONFIG = {
 
   // ---- Sosial Media ----
   socialMedia: {
-    whatsapp: "https://wa.me/6281234567890", // Ganti dengan nomor WA kamu (gunakan format 62...)
-    instagram: "https://instagram.com/username_kamu", // Ganti dengan link Instagram
-    tiktok: "https://tiktok.com/@username_kamu" // Ganti dengan link TikTok
+    whatsapp: "https://wa.me/6283159371090", // Ganti dengan nomor WA kamu (gunakan format 62...)
+    instagram: "https://instagram.com/sinarode_weddingorganizer", // Ganti dengan link Instagram
+    tiktok: "https://tiktok.com/@sinarode_weddingo" // Ganti dengan link TikTok
   },
 
   // ---- Musik Latar ----
