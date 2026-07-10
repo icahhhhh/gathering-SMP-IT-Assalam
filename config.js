@@ -6,7 +6,7 @@
 
 const CONFIG = {
   // ---- Link Utama Undangan (Untuk Generator) ----
-  baseUrl: "https://undangan-kamu.com/index.html", // Ganti dengan URL live undanganmu setelah di-hosting
+  baseUrl: "https://gathering-smp-it-assalam.vercel.app/", // Ganti dengan URL live undanganmu setelah di-hosting
 
   // ---- Identitas acara ----
   logoUrl: "Logo Sinar Ode WO.png", // Masukkan URL atau path file logomu di sini. Kosongkan ("") jika ingin disembunyikan.
@@ -64,7 +64,7 @@ const CONFIG = {
      tersimpan lokal di satu perangkat (tidak sinkron antar HP/laptop).
   ---------------------------------------------------------------------- */
   sheet: {
-    webAppUrl: "https://script.google.com/macros/s/AKfycbyyGUl5w7t0vjqaeN-GPwSWNJcrLsozMe6-0XeG-5sJJVt8XImmazX5SWvy_LZqrO2U/exec"
+    webAppUrl: "https://script.google.com/macros/s/AKfycbw0HfEcG4v2XQud4_-o9b8vE1kQt98v7aGTuPWyGCITGZWKeaeQXB3bWCsEOzxo3xaW/exec"
   },
 
   // ---- Galeri singkat (emoji dipakai sebagai placeholder ringan, boleh diganti foto asli) ----
