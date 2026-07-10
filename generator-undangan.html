@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Generator Undangan | Panitia</title>
+<meta name="robots" content="noindex, nofollow">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="generator-undangan-tailwind.config.js"></script>
+<link rel="stylesheet" href="generator-undangan.css">
+</head>
+<body class="font-sans antialiased min-h-screen p-4 md:p-10 flex flex-col items-center">
+
+<div class="w-full max-w-md">
+    <!-- Header -->
+    <header class="mb-8 flex justify-between items-end px-2">
+        <div>
+            <p class="text-[10px] font-bold uppercase tracking-[0.4em] text-mtn-ocean/70 mb-1">Panitia</p>
+            <h1 class="font-serif text-3xl text-mtn-navy font-bold">Generator Undangan</h1>
+        </div>
+    </header>
+
+    <!-- Main Input Form -->
+    <main class="glass-card rounded-[2.5rem] p-8 md:p-10 shadow-xl shadow-mtn-navy/5 mb-8">
+        <div class="space-y-6">
+            <div class="fade-up">
+                <label class="block text-[10px] font-bold text-mtn-ocean/70 uppercase tracking-widest mb-3 ml-1">Daftar Nama Tamu</label>
+                <textarea id="bulkNames" rows="8" placeholder="Ketik nama tamu, satu per baris...&#10;Contoh:&#10;Bpk. Junaidi&#10;Siska & Keluarga"
+                    class="w-full px-5 py-4 rounded-3xl outline-none text-sm font-medium text-mtn-ink resize-none custom-scrollbar shadow-inner"></textarea>
+                <div class="flex items-center gap-2 mt-3 ml-1">
+                    <div id="syncIndicator" class="w-1.5 h-1.5 bg-mtn-aqua rounded-full"></div>
+                    <p id="syncText" class="text-[9px] text-mtn-ocean/70 font-medium leading-relaxed uppercase tracking-wider">Data Undangan di bawah</p>
+                </div>
+            </div>
+
+            <button onclick="processGeneration()" id="btnGenerate" class="w-full bg-mtn-navy text-white font-bold py-5 rounded-[1.5rem] shadow-xl shadow-mtn-navy/20 text-[11px] uppercase tracking-[0.2em] mt-4 hover:brightness-110 active:scale-[0.97] transition-all flex justify-center items-center gap-3">
+                Buat Link Undangan
+            </button>
+        </div>
+    </main>
+
+    <!-- Result Area -->
+    <section id="resultBox" class="hidden space-y-4">
+        <div class="flex justify-between items-center px-4 mb-2">
+            <h3 class="text-[10px] font-bold uppercase tracking-[0.3em] text-mtn-ocean/60">Hasil Generate</h3>
+            <div class="flex gap-2">
+                <button onclick="exportCsv()" class="text-[9px] font-bold uppercase tracking-widest text-mtn-navy bg-white px-3 py-1.5 rounded-full shadow-sm border border-mtn-sky active:scale-95 transition-all">⬇ CSV</button>
+                <button onclick="resetAll()" class="text-[9px] font-bold uppercase tracking-widest text-red-500 bg-white px-3 py-1.5 rounded-full shadow-sm border border-red-100 active:scale-95 transition-all">Reset</button>
+            </div>
+        </div>
+
+        <div id="bulkList" class="space-y-4">
+            <!-- Item dimasukkan di sini -->
+        </div>
+    </section>
+</div>
+
+<!-- Toast Notification -->
+<div id="toast" class="fixed bottom-10 left-1/2 -translate-x-1/2 bg-mtn-navy/95 text-white px-8 py-4 rounded-2xl text-[10px] font-bold uppercase tracking-[0.2em] opacity-0 transition-all transform translate-y-4 pointer-events-none z-50 shadow-2xl backdrop-blur-md"></div>
+
+<script src="config.js"></script>
+<script src="generator-undangan.js"></script>
+</body>
+</html>

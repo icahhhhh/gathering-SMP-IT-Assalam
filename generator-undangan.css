@@ -1,0 +1,48 @@
+/* ========================================================================
+   GENERATOR-UNDANGAN.CSS — Gaya kustom di luar utility class Tailwind.
+   Tema "Hijau Pegunungan", selaras dengan style.css / scan-panel.css.
+   ======================================================================== */
+
+body {
+    background-color: #f5faf3;
+    color: #1c3a2e;
+    background-image: radial-gradient(circle at 85% 0%, rgba(95, 167, 115, 0.12), transparent 55%);
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.97);
+    border: 1px solid rgba(22, 51, 42, 0.08);
+}
+
+.fade-up {
+    animation: fadeUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.custom-scrollbar::-webkit-scrollbar { width: 4px; }
+.custom-scrollbar::-webkit-scrollbar-track { background: #f5faf3; }
+.custom-scrollbar::-webkit-scrollbar-thumb { background: #d8e8d0; border-radius: 10px; }
+
+textarea {
+    background-color: #f8faf6 !important;
+    border: 1px solid #d9ecd4 !important;
+    transition: all 0.2s ease;
+}
+
+textarea:focus {
+    border-color: #2f6b4f !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 0 0 4px rgba(47, 107, 79, 0.08);
+}
+
+.select-status {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%232f6b4f'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.5rem center;
+    background-size: 1em;
+}
