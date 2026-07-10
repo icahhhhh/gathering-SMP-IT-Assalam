@@ -11,8 +11,8 @@ const CONFIG = {
   // ---- Identitas acara ----
   logoUrl: "Logo Sinar Ode WO.png", // Masukkan URL atau path file logomu di sini. Kosongkan ("") jika ingin disembunyikan.
   schoolName: "SMP IT Assalam",
-  eventTitle: "SATU HATI: Silaturahmi, Taat, Harmoni Bersama Keluarga SMPIT Assalam Pelaihari",
-  eventTagline: "Silaturahmi, Taat, dan Harmoni Bersama Keluarga Besar SMPIT Assalam",
+  eventTitle: "SATU HATI: Silaturahmi, Taat, Harmoni Bersama Keluarga SMP IT Assalam Pelaihari",
+  eventTagline: "Silaturahmi, Taat, dan Harmoni Bersama Keluarga Besar SMP IT Assalam",
 
   // Format tanggal WAJIB: "YYYY-MM-DDTHH:mm:ss" (dipakai untuk hitung mundur)
   eventDateISO: "2026-07-18T07:00:00",
