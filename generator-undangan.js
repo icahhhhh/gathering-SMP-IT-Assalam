@@ -212,7 +212,6 @@ function getInvitationMessage(name, link) {
 Kepada Yth. Bapak/Ibu/Saudara/i diundang untuk hadir di:
 
 *${eventTitle}*
-${schoolName}
 
 🗓️ ${dateLabel}
 ⏰ ${timeLabel}
