@@ -82,7 +82,7 @@ function processGeneration() {
 
 function buildLink(name, kategori) {
     const sep = baseUrl.indexOf('?') >= 0 ? '&' : '?';
-    return `${baseUrl}${sep}to=${encodeURIComponent(name)}&kategori=${encodeURIComponent(kategori)}`;
+    return `${baseUrl}${sep}to=${encodeURIComponent(name)}`;
 }
 
 /* ---------------------------------------------------------------------
