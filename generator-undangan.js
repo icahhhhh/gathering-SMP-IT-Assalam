@@ -204,7 +204,7 @@ function getInvitationMessage(name, link) {
     const dateLabel = c.eventDateLabel || "";
     const timeLabel = c.eventTimeLabel || "";
     const locName = (c.location && c.location.name) || "";
-    const dressCode = c.dressCode || "";
+    const dressCode = (c.dressCode || "").replace(/<br\s*\/?>/gi, ", ");
     const committeeName = (c.committee && c.committee.name) || "Panitia";
 
     return `Halo, *${name}*! 👋🌲
