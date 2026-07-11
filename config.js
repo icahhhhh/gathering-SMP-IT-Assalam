@@ -22,7 +22,7 @@ const CONFIG = {
   location: {
     name: "Rumah Makan Pegunungan Batilai",
     address: "Batilai, Telaga, Kec. Pelaihari, Kabupaten Tanah Laut, Kalimantan Selatan 70815",
-    mapsUrl: "https://maps.app.goo.gl/saZeNz8YVoZUrT1T9"
+    mapsUrl: "https://maps.app.goo.gl/grWzAw5rLCdtsT4E6"
   },
 
   dressCode: "👕 Bebas Pantas (Sopan)",
