@@ -207,7 +207,7 @@ function getInvitationMessage(name, link) {
     const dressCode = (c.dressCode || "").replace(/<br\s*\/?>/gi, ", ");
     const committeeName = (c.committee && c.committee.name) || "Panitia";
 
-    return `Assalamualaikum WR.WB, *${name}*! 👋🌲
+    return `Assalamu'alaikum Warahamatullahi Wabarakatuh, *${name}*! 👋🌲
 
 Kepada Yth. Bapak/Ibu/Saudara/i diundang untuk hadir di:
 
