@@ -25,7 +25,7 @@ const CONFIG = {
     mapsUrl: "https://maps.app.goo.gl/saZeNz8YVoZUrT1T9"
   },
 
-  dressCode: "👕 Polo/Kaos <br> 👖 Celana panjang <br> 👟 Sneakers/Sepatu olahraga",
+  dressCode: "👕 Bebas Pantas (Sopan)",
 
   // ---- Kontak panitia (dipakai tombol konfirmasi kehadiran) ----
   committee: {
@@ -38,13 +38,14 @@ const CONFIG = {
   schedule: [
     { time: "07.30", title: "Registrasi & Kedatangan", desc: "Check-in kehadiran tamu dan siswa bersama keluarga." },
     { time: "08.00", title: "Pembukaan Acara", desc: "Sambutan Kepala Sekolah & Ketua Panitia, dilanjutkan doa pembuka." },
-    { time: "08.30", title: "Ice Breaking Keluarga", desc: "Games pembuka bersama seluruh keluarga untuk mencairkan suasana." },
-    { time: "09.00", title: "Taat Journey: Taaruf", desc: "Sesi perkenalan antar keluarga, dipisah kelompok ikhwan & akhwat." },
-    { time: "10.00", title: "Games Keluarga Kompetitif", desc: "Lomba seru orang tua & anak, dilanjut hiburan penampilan siswa." },
-    { time: "11.30", title: "ISHOMA & Sholat Dzuhur", desc: "Istirahat, makan siang, dan sholat Dzuhur berjamaah." },
-    { time: "13.00", title: "Taat Journey: Tafakur", desc: "Muhasabah bersama, menulis surat untuk orang tua/anak, tausiyah reflektif." },
-    { time: "13.45", title: "Games Penutup & Pengumuman", desc: "Lomba final antar keluarga, pengumuman pemenang, dan pembagian doorprize." },
-    { time: "14.45", title: "Penutupan", desc: "Foto bersama, doa penutup, dan sesi pulang." }
+    { time: "08.30", title: "FSOG: Forum Silaturahmi Orang Tua & Guru", desc: "Penyampaian informasi dari guru-guru kepada orang tua murid." },
+    { time: "10.00", title: "Taat Journey: Taaruf", desc: "Sesi perkenalan antar keluarga, dipisah kelompok ikhwan & akhwat." },
+    { time: "11.00", title: "Games Keluarga Kompetitif", desc: "Lomba seru orang tua & anak per kelompok." },
+    { time: "12.00", title: "Waktu Bebas", desc: "Foto & santai bersama keluarga sambil menunggu ISHOMA." },
+    { time: "12.30", title: "ISHOMA & Sholat Dzuhur", desc: "Istirahat, makan siang, dan sholat Dzuhur berjamaah." },
+    { time: "14.00", title: "Taat Journey: Tafakur", desc: "Muhasabah bersama, menulis surat untuk orang tua/anak, tausiyah reflektif." },
+    { time: "14.45", title: "Games Penutup & Pengumuman", desc: "Lomba final antar keluarga, pengumuman pemenang, dan pembagian doorprize." },
+    { time: "15.45", title: "Penutupan", desc: "Foto bersama, doa penutup, dan sesi pulang." }
   ],
 
   // ---- Tiket / QR code kehadiran ----
