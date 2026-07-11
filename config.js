@@ -17,7 +17,7 @@ const CONFIG = {
   // Format tanggal WAJIB: "YYYY-MM-DDTHH:mm:ss" (dipakai untuk hitung mundur)
   eventDateISO: "2026-07-18T07:00:00",
   eventDateLabel: "Sabtu, 18 Juli 2026",
-  eventTimeLabel: "08.00 WITA – Selesai",
+  eventTimeLabel: "07.30 WITA – Selesai",
 
   location: {
     name: "Rumah Makan Pegunungan Batilai",
@@ -39,13 +39,10 @@ const CONFIG = {
     { time: "07.30", title: "Registrasi & Kedatangan", desc: "Check-in kehadiran tamu dan siswa bersama keluarga." },
     { time: "08.00", title: "Pembukaan Acara", desc: "Sambutan Kepala Sekolah & Ketua Panitia, dilanjutkan doa pembuka." },
     { time: "08.30", title: "FSOG: Forum Silaturahmi Orang Tua & Guru", desc: "Penyampaian informasi dari guru-guru kepada orang tua murid." },
-    { time: "10.00", title: "Taat Journey: Taaruf", desc: "Sesi perkenalan antar keluarga, dipisah kelompok ikhwan & akhwat." },
-    { time: "11.00", title: "Games Keluarga Kompetitif", desc: "Lomba seru orang tua & anak per kelompok." },
-    { time: "12.00", title: "Waktu Bebas", desc: "Foto & santai bersama keluarga sambil menunggu ISHOMA." },
-    { time: "12.30", title: "ISHOMA & Sholat Dzuhur", desc: "Istirahat, makan siang, dan sholat Dzuhur berjamaah." },
-    { time: "14.00", title: "Taat Journey: Tafakur", desc: "Muhasabah bersama, menulis surat untuk orang tua/anak, tausiyah reflektif." },
-    { time: "14.45", title: "Games Penutup & Pengumuman", desc: "Lomba final antar keluarga, pengumuman pemenang, dan pembagian doorprize." },
-    { time: "15.45", title: "Penutupan", desc: "Foto bersama, doa penutup, dan sesi pulang." }
+    { time: "10.00", title: "Games Keluarga", desc: "Perkenalan singkat antar keluarga (human bingo) dan lomba seru orang tua & anak, dipisah ikhwan & akhwat." },
+    { time: "11.30", title: "ISHOMA & Sholat Dzuhur", desc: "Istirahat, makan siang, dan sholat Dzuhur berjamaah." },
+    { time: "12.40", title: "Pembagian Hadiah", desc: "Pembagian hadiah/souvenir." },
+    { time: "13.00", title: "Penutupan", desc: "Foto bersama, doa penutup, dan sesi pulang." }
   ],
 
   // ---- Tiket / QR code kehadiran ----
