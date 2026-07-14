@@ -37,12 +37,10 @@ const CONFIG = {
   // ---- Rundown acara ----
   schedule: [
     { time: "07.30", title: "Registrasi & Kedatangan", desc: "Check-in kehadiran tamu dan siswa bersama keluarga." },
-    { time: "08.00", title: "Pembukaan Acara", desc: "Sambutan Kepala Sekolah & Ketua Panitia, dilanjutkan doa pembuka." },
-    { time: "08.30", title: "FSOG: Forum Silaturahmi Orang Tua & Guru", desc: "Penyampaian informasi dari guru-guru kepada orang tua murid." },
-    { time: "10.00", title: "Games Keluarga", desc: "Perkenalan singkat antar keluarga (human bingo) dan lomba seru orang tua & anak, dipisah ikhwan & akhwat." },
-    { time: "11.30", title: "ISHOMA & Sholat Dzuhur", desc: "Istirahat, makan siang, dan sholat Dzuhur berjamaah." },
-    { time: "12.40", title: "Pembagian Hadiah", desc: "Pembagian hadiah/souvenir." },
-    { time: "13.00", title: "Penutupan", desc: "Foto bersama, doa penutup, dan sesi pulang." }
+    { time: "08.00", title: "Pembukaan Acara", desc: "MC membuka acara, tilawah Al-Qur'an, sambutan Ketua Yayasan, tafakur, dan doa pembuka." },
+    { time: "08.55", title: "Family Gathering: Games Keluarga", desc: "Perkenalan antar keluarga (human bingo) dan lomba seru orang tua & anak, dipisah ikhwan & akhwat." },
+    { time: "11.05", title: "FSOG: Forum Silaturahmi Orang Tua & Guru", desc: "Sambutan Kepala Sekolah, perkenalan guru, serta penyampaian kurikulum, tata tertib, dan ekskul." },
+    { time: "13.15", title: "Penutupan", desc: "Foto bersama, makan bersama, dan sesi pulang." }
   ],
 
   // ---- Tiket / QR code kehadiran ----
@@ -89,7 +87,7 @@ const CONFIG = {
      dalam format Lottie JSON standar agar tidak bergantung ke file
      eksternal — cukup dimuat langsung oleh lottie-web lewat script.js.
   ---------------------------------------------------------------------- */
-  lottieSun: {
+  lottieMountain: {
     v: "5.9.6",
     fr: 30,
     ip: 0,
