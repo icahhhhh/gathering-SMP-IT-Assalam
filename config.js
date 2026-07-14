@@ -39,7 +39,7 @@ const CONFIG = {
     { time: "07.30", title: "Registrasi & Kedatangan", desc: "Check-in kehadiran tamu dan siswa bersama keluarga." },
     { time: "08.00", title: "Pembukaan Acara", desc: "MC membuka acara, tilawah Al-Qur'an, sambutan Ketua Yayasan, tafakur, dan doa pembuka." },
     { time: "08.55", title: "Family Gathering: Games Keluarga", desc: "Perkenalan antar keluarga (human bingo) dan lomba seru orang tua & anak, dipisah ikhwan & akhwat." },
-    { time: "11.05", title: "FSOG: Forum Silaturahmi Orang Tua & Guru", desc: "Sambutan Kepala Sekolah, perkenalan guru, serta penyampaian kurikulum, tata tertib, dan ekskul." },
+    { time: "11.00", title: "FSOG: Forum Silaturahmi Orang Tua & Guru", desc: "Sambutan Kepala Sekolah, perkenalan guru, serta penyampaian kurikulum, tata tertib, dan ekskul." },
     { time: "13.15", title: "Penutupan", desc: "Foto bersama, makan bersama, dan sesi pulang." }
   ],
 
